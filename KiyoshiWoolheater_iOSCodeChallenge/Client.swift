@@ -54,7 +54,6 @@ class Client: NSObject {
                 return
             }
             
-            print(parsedResult)
             for (index, value) in parsedResult {
                 var result: NSDictionary
                 if index ==  "error" {
@@ -92,7 +91,6 @@ class Client: NSObject {
                                             }
                                         
                                             if key as! String == "thumbnail" && value as! String != "" {
-                                                print(value)
                                                 self.getImageData(url: value as! String, completionHandler: { success, data, error in
                                                     if success! {
                                                         if data != nil {
