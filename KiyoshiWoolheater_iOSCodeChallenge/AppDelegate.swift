@@ -16,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Initalize window
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+        // Set background color for window
+        window?.backgroundColor = UIColor.white
+        
+        // Allocate memory for an instance of table view controller and navigation controller
+        let homeViewController = HomeViewController() as UIViewController
+        let navigationController = UINavigationController(rootViewController: homeViewController)
+        navigationController.navigationBar.isTranslucent = false
+        
+        // Set root view controller to table view controller
+        window!.rootViewController = navigationController
+        
+        // Make the window visible
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
