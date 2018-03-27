@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4109B228206A9CBE00202837 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4109B227206A9CBE00202837 /* LaunchScreen.xib */; };
 		4120A2762065A51C001336AA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A2742065A51C001336AA /* TableViewCell.swift */; };
 		4120A2772065A51C001336AA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4120A2752065A51C001336AA /* TableViewCell.xib */; };
 		414D03E12065494200D0FFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414D03E02065494200D0FFA2 /* AppDelegate.swift */; };
 		414D03E82065494300D0FFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414D03E72065494300D0FFA2 /* Assets.xcassets */; };
-		414D03EB2065494300D0FFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414D03E92065494300D0FFA2 /* LaunchScreen.storyboard */; };
 		414D03F62065494300D0FFA2 /* KiyoshiWoolheater_iOSCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414D03F52065494300D0FFA2 /* KiyoshiWoolheater_iOSCodeChallengeTests.swift */; };
 		414D04012065498100D0FFA2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414D04002065498100D0FFA2 /* Client.swift */; };
 		414D0403206582BC00D0FFA2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414D0402206582BC00D0FFA2 /* Post.swift */; };
@@ -32,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4109B227206A9CBE00202837 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4120A2742065A51C001336AA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		4120A2752065A51C001336AA /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		414D03DD2065494200D0FFA2 /* KiyoshiWoolheater_iOSCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiyoshiWoolheater_iOSCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		414D03E02065494200D0FFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		414D03E72065494300D0FFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		414D03EA2065494300D0FFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414D03EC2065494300D0FFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414D03F12065494300D0FFA2 /* KiyoshiWoolheater_iOSCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiyoshiWoolheater_iOSCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414D03F52065494300D0FFA2 /* KiyoshiWoolheater_iOSCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiyoshiWoolheater_iOSCodeChallengeTests.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				4120A2752065A51C001336AA /* TableViewCell.xib */,
 				414D0402206582BC00D0FFA2 /* Post.swift */,
 				414D03E72065494300D0FFA2 /* Assets.xcassets */,
-				414D03E92065494300D0FFA2 /* LaunchScreen.storyboard */,
+				4109B227206A9CBE00202837 /* LaunchScreen.xib */,
 				414D03EC2065494300D0FFA2 /* Info.plist */,
 				416BC67A2069660D008932BF /* font */,
 			);
@@ -203,10 +203,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414D03EB2065494300D0FFA2 /* LaunchScreen.storyboard in Resources */,
 				4120A2772065A51C001336AA /* TableViewCell.xib in Resources */,
 				414D03E82065494300D0FFA2 /* Assets.xcassets in Resources */,
 				416BC67C20696629008932BF /* bebasneue.ttf in Resources */,
+				4109B228206A9CBE00202837 /* LaunchScreen.xib in Resources */,
 				414D0407206597FE00D0FFA2 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,17 +251,6 @@
 			targetProxy = 414D03F22065494300D0FFA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		414D03E92065494300D0FFA2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				414D03EA2065494300D0FFA2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		414D03F82065494300D0FFA2 /* Debug */ = {
